@@ -3,7 +3,7 @@ Barebones CMS API Documentation
 
 This is the technical documentation for the Barebones CMS API.  The API is, for all intents and purposes, Barebones CMS and is responsible for storing and retrieving assets, revisions, tags, and files.
 
-To install Barebones CMS API, see the [Installation Guide](https://github.com/cubiclesoft/barebones-cms-docs/blob/master/docs/install.md).
+To install Barebones CMS API, see the [Installation Guide](https://github.com/cubiclesoft/barebones-cms-docs/blob/master/install.md).
 
 How It Works
 ------------

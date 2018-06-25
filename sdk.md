@@ -33,7 +33,7 @@ Returns:  Nothing.
 
 This function sets the access information for later use with API calls.
 
-Some functions such as `GetAssets()` only require read only access while other functions such as `GetRevisions()` and `StoreAsset()` require write access.  See the [Barebones CMS API documentation](https://github.com/cubiclesoft/barebones-cms-docs/blob/master/docs/api.md).
+Some functions such as `GetAssets()` only require read only access while other functions such as `GetRevisions()` and `StoreAsset()` require write access.  See the [Barebones CMS API documentation](https://github.com/cubiclesoft/barebones-cms-docs/blob/master/api.md).
 
 This function also reinitializes internal structures, which will trigger a disconnect from the server if an API call has already been made.
 
@@ -695,7 +695,7 @@ The `$options` array accepts the following options:
 * $recvratelimit - An integer containing the amount of data per second to receive over the network (Default is false).
 * $cacheonly - A boolean that indicates whether or not to only cache the retrieved file(s) locally (Default is false).
 
-See the [Frontend Patterns documentation](https://github.com/cubiclesoft/barebones-cms-docs/blob/master/docs/frontend-patterns.md) for example usage.
+See the [Frontend Patterns documentation](https://github.com/cubiclesoft/barebones-cms-docs/blob/master/frontend-patterns.md) for example usage.
 
 BarebonesCMS::PrecacheDeliverFile($id, $filename, $options)
 -----------------------------------------------------------
@@ -791,7 +791,7 @@ The `$options` array accepts the following options:
 
 The modified asset should never be stored via the API unless you really know what you are doing.
 
-See the [Frontend Patterns documentation](https://github.com/cubiclesoft/barebones-cms-docs/blob/master/docs/frontend-patterns.md) for example usage.
+See the [Frontend Patterns documentation](https://github.com/cubiclesoft/barebones-cms-docs/blob/master/frontend-patterns.md) for example usage.
 
 BarebonesCMS::GenerateStoryAssetSummary($asset, $options = array(), $lang = false)
 ----------------------------------------------------------------------------------
@@ -816,7 +816,7 @@ The `$options` array accepts the following options:
 
 The modified asset should never be stored via the API.
 
-See the [Frontend Patterns documentation](https://github.com/cubiclesoft/barebones-cms-docs/blob/master/docs/frontend-patterns.md) for example usage.
+See the [Frontend Patterns documentation](https://github.com/cubiclesoft/barebones-cms-docs/blob/master/frontend-patterns.md) for example usage.
 
 BarebonesCMS::CanRefreshContent($validtoken, $requestkey = "refresh")
 ---------------------------------------------------------------------
