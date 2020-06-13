@@ -481,7 +481,7 @@ Example news pattern usage:
 * Announcements.
 * A corporate or personal blog for posting updates.
 
-This pattern assumes matching Tags have starting and trailing slashes for the section (e.g. `/gardening/fun/`) and no trailing slash for individual assets (e.g. `/gardening/fun/12345-permalink-story-title.html`).
+This pattern assumes matching Tags have starting and trailing slashes for the section (e.g. `/gardening/fun/`).
 
 ```php
 <?php
